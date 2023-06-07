@@ -6,10 +6,11 @@ document.getElementById('looking-for-button').addEventListener('click',function(
     document.getElementById('modal-2').classList.add('open')
 })
 
-document.getElementById('modal-button-close').addEventListener('click',function(){
-    document.getElementById('modal').classList.remove('open')
-})
 
-document.getElementById('modal-button-close-2').addEventListener('click',function(){
+function closeModalTwo() {
     document.getElementById('modal-2').classList.remove('open')
-})
+}
+
+function closeModal() {
+    document.getElementById('modal').classList.remove('open')
+}
