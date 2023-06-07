@@ -11,6 +11,5 @@ document.getElementById('modal-button-close').addEventListener('click',function(
 })
 
 document.getElementById('modal-button-close-2').addEventListener('click',function(){
-    console.log(1)
     document.getElementById('modal-2').classList.remove('open')
 })

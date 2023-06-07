@@ -10,25 +10,26 @@ let titleElemThree = menuElemThree.querySelector('.questions-content-image');
 let titleElemFour = menuElemFour.querySelector('.questions-content-image');
 let titleElemFive = menuElemFive.querySelector('.questions-content-image');
 
-titleElemOne.onclick = function() {
+titleElemOne.addEventListener('click', function() {
     menuElemOne.classList.toggle('open');
-};
+}) 
 
-titleElemTwo.onclick = function() {
+titleElemTwo.addEventListener('click', function() {
     menuElemTwo.classList.toggle('open');
-};
+});
 
-titleElemThree.onclick = function() {
+titleElemThree.addEventListener('click', function() {
     menuElemThree.classList.toggle('open');
-};
+});
 
-titleElemFour.onclick = function() {
+titleElemFour.addEventListener('click', function() {
     menuElemFour.classList.toggle('open');
-};
+});
 
-titleElemFive.onclick = function() {
+titleElemFive.addEventListener('click', function() {
     menuElemFive.classList.toggle('open');
-};
+});
+
 
 
 

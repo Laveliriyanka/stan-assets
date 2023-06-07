@@ -12,8 +12,9 @@ let pointThree = point3.querySelector('.point');
 
 point1.classList.add('point-action');
 contentMenuOne.classList.add('open');
+ 
 
-pointOne.onclick = function() {
+pointOne.addEventListener('click',function() {
     point1.classList.add('point-action');
     point2.classList.remove('point-action');
     point3.classList.remove('point-action');
@@ -22,8 +23,9 @@ pointOne.onclick = function() {
     contentMenuTwo.classList.remove('open');
     contentMenuThree.classList.remove('open');
 }
+ ) 
 
-pointTwo.onclick = function() {
+pointTwo.addEventListener('click', function() {
     point1.classList.remove('point-action');
     point2.classList.add('point-action');
     point3.classList.remove('point-action');
@@ -31,9 +33,9 @@ pointTwo.onclick = function() {
     contentMenuOne.classList.remove('open');
     contentMenuTwo.classList.add('open');
     contentMenuThree.classList.remove('open');
-}
+}) 
 
-pointThree.onclick = function() {
+pointThree.addEventListener('click',  function() {
     point1.classList.remove('point-action');
     point2.classList.remove('point-action');
     point3.classList.add('point-action');
@@ -41,4 +43,4 @@ pointThree.onclick = function() {
     contentMenuOne.classList.remove('open');
     contentMenuTwo.classList.remove('open');
     contentMenuThree.classList.add('open');
-}
+})

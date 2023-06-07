@@ -20,21 +20,21 @@ let contacts = document.getElementById('contacts');
 let progects = document.getElementById('progects');
 let questions = document.getElementById('questions');
 
-servicesAction.onclick = function() {
+servicesAction.addEventListener('click', function() {
     services.scrollIntoView({block: "start", behavior: "smooth"});
-}
-technologiesAction.onclick = function() {
+}) 
+technologiesAction.addEventListener('click', function() {
     technologies.scrollIntoView({block: "start", behavior: "smooth"});
-}
-productsAction.onclick = function() {
+}) 
+productsAction.addEventListener('click', function() {
     cards.scrollIntoView({block: "start", behavior: "smooth"});
-}
-portfolioAction.onclick = function() {
+}) 
+portfolioAction.addEventListener('click', function() {
     progects.scrollIntoView({block: "start", behavior: "smooth"});
-}
-contactsAction.onclick = function() {
+}) 
+contactsAction.addEventListener('click', function() {
     contacts.scrollIntoView({block: "start", behavior: "smooth"});
-}
-aboutUsAction.onclick = function() {
+}) 
+aboutUsAction.addEventListener('click',  function() {
     questions.scrollIntoView({block: "start", behavior: "smooth"});
-}
+})
