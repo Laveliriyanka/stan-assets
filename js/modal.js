@@ -14,3 +14,8 @@ function closeModalTwo() {
 function closeModal() {
     document.getElementById('modal').classList.remove('open')
 }
+
+function showNotification() {
+    document.getElementById('modal-notification').classList.add('open')
+    setInterval(() => document.getElementById('modal-notification').classList.toggle('open'),2000)
+}
